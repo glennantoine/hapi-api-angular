@@ -1,0 +1,17 @@
+{
+  "name": "Boilerplate",
+  "version": "0.0.1",
+  "devDependencies": {},
+  "dependencies": {
+    "angular": "latest",
+    "angular-bootstrap": "latest",
+    "angular-messages": "latest",
+    "angular-sanitize": "latest",
+    "angular-mocks": "latest",
+    "angular-ui-router": "latest",
+    "angular-ui-utils": "latest",
+    "bootstrap": "latest",
+    "ng-table": "latest",
+    "restangular": "~1.4.0"
+  }
+}

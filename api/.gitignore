@@ -1,0 +1,19 @@
+# Ignore all dotfiles...
+.*
+
+# except for a select few
+!.gitignore
+!.bowerrc
+!.npmignore
+
+npm-debug.log
+*.tgz
+
+*.sw*
+node_modules
+
+pids/*
+tmp/*
+logs/*
+cache/*
+src/log/*

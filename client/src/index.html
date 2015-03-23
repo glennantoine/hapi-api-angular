@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="demoApp">
+    <head>
+        <title>Node Api Angular Demo</title>
+        <!-- social media tags -->
+        <meta property="og:title" content="Demo Api with Node.js Angular.js" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="www.somedomain.com" />
+        <meta property="og:image" content="" />
+        <meta property="og:description" content="" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!-- compiled CSS --><% styles.forEach( function ( file ) { %>
+        <link rel="stylesheet" type="text/css" href="<%= file %>" /><% }); %>
+
+        <!-- compiled JavaScript --><% scripts.forEach( function ( file ) { %>
+        <script type="text/javascript" src="<%= file %>"></script><% }); %>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Demo Api with Node.js Angular.js</a>
+                </div>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+        <div id="wrap">
+            <div class="container" ui-view="main"></div>
+        </div>
+        <footer class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container-fluid">
+                <p class="text-muted credit">&copy; 2014 Glenn Antoine</p>
+            </div>
+        </footer>
+    </body>
+</html>

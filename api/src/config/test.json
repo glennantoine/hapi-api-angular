@@ -1,0 +1,35 @@
+{
+    "mongoose": {
+        "host": "localhost",
+        "port": "27017",
+        "db": "test-students",
+        "username": "",
+        "password": ""
+    },
+    "server": {
+        "defaultHost": "http://localhost:8800",
+        "host": "localhost",
+        "port": "8800"
+    },
+    "options": {
+        "cors": true,
+        "state": {
+            "cookies": {
+            "strictHeader": false
+            }
+        },
+        "views": {
+            "path": "./src/templates",
+            "partialsPath": "./src/templates/partials",
+            "helpersPath": "./src/templates/helpers",
+            "isCached": "false"
+            }
+    },
+    "socket": {
+        "secure": "false",
+        "serverOptions": {},
+        "port": "5000",
+        "bindIP": "0.0.0.0"
+    }
+}
+

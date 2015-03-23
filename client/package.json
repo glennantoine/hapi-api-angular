@@ -1,0 +1,44 @@
+{
+  "name": "students",
+  "title": "A demo with Node.js Angular.js and Hapi",
+  "version": "0.0.1",
+  "private": true,
+  "licenses": {
+    "type": "MIT",
+    "url": "https://github.com"
+  },
+  "author": {
+    "name": "Glenn Antoine",
+    "company": "none"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-angular-templates": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-debug-task": "latest",
+    "grunt-karma": "latest",
+    "grunt-ng-annotate": "latest",
+    "grunt-ng-constant": "^1.0.0",
+    "grunt-protractor-runner": "latest",
+    "grunt-selenium-webdriver": "^0.2.421",
+    "grunt-contrib-connect": "~0.5.0",
+    "karma": "^0.12.21",
+    "karma-chai-sinon": "^0.1.3",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-coverage": "^0.2.6",
+    "karma-mocha": "^0.1.7",
+    "karma-osx-reporter": "^0.1.0",
+    "protractor": "latest",
+    "request": "latest"
+  }
+}

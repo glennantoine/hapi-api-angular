@@ -1,0 +1,14 @@
+{ "studentId":1, "lastName":"Smith", "firstName":"John", "grade":"Senior", "email":"j.smith@school.com", "phone":"317-321-4567", "active":true}
+{ "studentId":2, "lastName":"Taylor", "firstName":"Lisa", "grade":"Sophomore", "email":"l.taylor@school.com", "phone":"317-522-5588", "active":true }
+{ "studentId":3,"lastName":"Jones","firstName":"James", "grade":"Junior", "email":"j.jones@school.com", "phone":"317-589-9977", "active":true }
+{ "studentId":4, "lastName":"Wong", "firstName":"Paul", "grade":"Freshman", "email":"p.wong@school.com", "phone":"317-245-9785", "active":true }
+{ "studentId":5,"lastName":"King","firstName":"Alice", "grade":"Senior", "email":"a.king@school.com", "phone":"317-244-1177", "active":true}
+{ "studentId":6,"lastName":"Brown","firstName":"Jan","grade":"Senior","email":"j.brown@school.com","phone":"317-568-9863","active":true}
+{ "studentId":7,"lastName":"Garcia","firstName":"Ami","grade":"Junior","email":"a.garcia@school.com","phone":"317-327-9966","active":true}
+{ "studentId":8,"lastName":"Green","firstName":"Jack","grade":"Freshman","email":"j.green@school.com","phone":"317-565-9966","active":true}
+{ "studentId":9,"lastName":"Liesen","firstName":"Abraham","grade":"Freshman","email":"a.liesen@school.com","phone":"317-523-4468","active":true}
+{ "studentId":10,"lastName":"Bower","firstName":"Angela","grade":"Sophomore","email":"a.bower@school.com","phone":"317-877-3434","active":true}
+{ "studentId":11,"lastName":"Davidoff","firstName":"Fjodor","grade":"Sophomore","email":"f.davidoff@school.com","phone":"317-446-9999","active":true}
+{ "studentId":12, "lastName":"Vitrovic","firstName":"Biljana","grade":"Sophomore","email":"b.vitrovic@school.com", "phone":"317-111-1111","active":true}
+{ "studentId":13, "lastName":"Valet","firstName":"Guillaume","grade":"Senior","email":"g.valet@school.com","phone":"317-565-4412","active":true}
+{ "studentId":14, "lastName":"Tran","firstName":"Min","grade":"Senior","email":"m.tran@school.com","phone":"317-866-2554","active":true}

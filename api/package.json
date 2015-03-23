@@ -1,0 +1,54 @@
+{
+  "name": "ApiPrototype",
+  "version": "0.0.0",
+  "description": "A prototype api to be used as the basis for creating a workbench api",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "good": "2.2.0",
+    "hapi": "6.2.1",
+    "hapi-auth-cookie": "1.3.1",
+    "hapi-swagger": "0.2.3",
+    "hoek": "2.3.0",
+    "joi": "4.6.1",
+    "lodash": "2.4.1",
+    "marked": "0.3.2",
+    "mongoose": "3.8.14",
+    "node-uuid": "1.4.1",
+    "q": "1.0.1",
+    "socket.io": "1.0.6",
+    "swig": "1.4.1",
+    "underscore": "1.6.0"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-concurrent": "0.4.3",
+    "grunt-contrib-jshint": "0.8.0",
+    "grunt-contrib-watch": "0.5.3",
+    "grunt-env": "0.4.1",
+    "grunt-lab": "1.0.3",
+    "grunt-node-inspector": "0.1.5",
+    "grunt-nodemon": "0.2.1",
+    "lab": "3.2.1",
+    "li": "1.0.0"
+  },
+  "scripts": {
+    "test": "lab -c -C -G- -l -v",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "hapi",
+    "api",
+    "workbench",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Glenn Antoine <me@glennantoine.com>",
+  "license": "ISC"
+}

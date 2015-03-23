@@ -1,0 +1,17 @@
+.log
+npm-debug.log
+
+# Ignore all dotfiles...
+.*
+# except for a select few
+!.gitignore
+!.bowerrc
+!.npmignore
+
+*.sw*
+build/
+dist/
+node_modules/
+vendor/
+coverage/
+src/constants.js

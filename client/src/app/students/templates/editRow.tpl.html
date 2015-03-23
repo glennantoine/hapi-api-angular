@@ -1,0 +1,25 @@
+<table class="noborder">
+        <tr>
+            <input type="hidden" name="_id" data-ng-model="student._id">
+            <td>ID:</td>
+            <input type="text" name="studentId" data-ng-model="student.studentId">
+            <td>Firstname:</td>
+            <td><input type="text" name="firstName" class="w100" data-ng-model="student.firstName"></td>
+            <td>Grade: </td>
+            <td><input type="text" name="grade" class="w180" data-ng-model="student.grade"></td>
+            <td>Email:</td>
+            <td><input type="text" name="email" class="w180" data-ng-model="student.email"></td>
+        </tr>
+        <tr>
+            <td>Lastname:</td>
+            <td><input type="text" name="lastName" class="w100" data-ng-model="student.lastName"></td>
+
+            <td>Phone: </td>
+            <td><input type="text" name="phone" class="w120" data-ng-model="student.phone"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value=" save " data-ng-click="$scope.$parent.updateStudent(student)"></td>
+            <td><input type="button" value=" cancel" ng-click="setEditId(-1)"></td>
+        </tr>
+</table>
+<!--  class="editRowTd" -->

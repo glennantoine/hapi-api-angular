@@ -1,0 +1,7 @@
+{
+    "admin": {
+            "id": "admin",
+            "password": "p@ssw0rd",
+            "name": "Admin"
+        }
+}

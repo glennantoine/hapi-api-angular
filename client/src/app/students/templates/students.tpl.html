@@ -1,0 +1,67 @@
+<button class="btn btn-default" ng-click="setCreateId(0)">New Student</button>
+<div class="create-student-wrapper" ng-show="createId===0" ng-if="createId===0">
+    <table class="noborder">
+        <tr>
+            <td>Firstname:</td>
+            <td><input type="text" name="firstName" class="w100" data-ng-model="newStudent.firstName"></td>
+            <td>Grade: </td>
+            <td><input type="text" name="grade" class="w180" data-ng-model="newStudent.grade"></td>
+            <td>Email:</td>
+            <td><input type="text" name="email" class="w180" data-ng-model="newStudent.email"></td>
+        </tr>
+        <tr>
+            <td>Lastname:</td>
+            <td><input type="text" name="lastName" class="w100" data-ng-model="newStudent.lastName"></td>
+
+            <td>Phone: </td>
+            <td><input type="text" name="phone" class="w120" data-ng-model="newStudent.phone"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value=" save " data-ng-click="createStudent()"></td>
+            <td><input type="button" value=" cancel" ng-click="createId = -1"></td>
+        </tr>
+    </table>
+</div>
+<table ng-table="tableParams" class="table">
+    <tbody ng-repeat="student in $data">
+        <tr id="tr{{student.studentId}}" ng-class-odd="'odd'" ng-class-even="'even'">
+            <td class="rowTd" data-title="'Student ID'" sortable="'studentId'">{{student.studentId}}</td>
+            <td class="rowTd" data-title="'Firstname'" sortable="'firstName'">{{student.firstName}}</td>
+            <td class="rowTd" data-title="'Lastname'" sortable="'lastName'">{{student.lastName}}</td>
+            <td class="rowTd" data-title="'Grade'" sortable="'grade'">{{student.grade}}</td>
+            <td class="rowTd" data-title="'Email'" sortable="'email'">{{student.email}}</td>
+            <td class="rowTd" data-title="'Phone'" sortable="'phone'">{{student.phone}}</td>
+            <td class="rowTd" >
+                <input type=button id="editRowBtn{{student.studentId}}" value="edit" ng-click="setEditId(student.studentId)">
+            </td>
+        </tr>
+        <tr ng-show="editId===student.studentId" ng-if="editId===student.studentId">
+            <td colspan="7">
+                <table class="noborder">
+                        <tr>
+                            <input type="hidden" name="_id" data-ng-model="student._id">
+                            <td>ID:</td>
+                            <input type="text" name="studentId" data-ng-model="student.studentId">
+                            <td>Firstname:</td>
+                            <td><input type="text" name="firstName" class="w100" data-ng-model="student.firstName"></td>
+                            <td>Grade: </td>
+                            <td><input type="text" name="grade" class="w180" data-ng-model="student.grade"></td>
+                            <td>Email:</td>
+                            <td><input type="text" name="email" class="w180" data-ng-model="student.email"></td>
+                        </tr>
+                        <tr>
+                            <td>Lastname:</td>
+                            <td><input type="text" name="lastName" class="w100" data-ng-model="student.lastName"></td>
+
+                            <td>Phone: </td>
+                            <td><input type="text" name="phone" class="w120" data-ng-model="student.phone"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value=" save " data-ng-click="updateStudent(student)"></td>
+                            <td><input type="button" value=" cancel" ng-click="setEditId(-1)"></td>
+                        </tr>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
